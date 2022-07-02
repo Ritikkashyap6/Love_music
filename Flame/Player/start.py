@@ -210,7 +210,7 @@ async def help(client: Client, message: Message):
     self.username = get_me.username
     buttons = [
             [
-                InlineKeyboardButton("👮 Aᴅᴍɪɴꜱ", url="https://t.me/Flame_Updates/7"),
+                InlineKeyboardButton("👮 Aᴅᴍɪɴꜱ", url="admin"),
                 InlineKeyboardButton("🗨️ Uꜱᴇʀꜱ", callback_data="users"),
             ],
             [
